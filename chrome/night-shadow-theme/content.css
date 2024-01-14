@@ -1,0 +1,44 @@
+@namespace html url('http://www.w3.org/1999/xhtml');
+@namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+
+@-moz-document url-prefix("about:"), url-prefix("chrome://"), url-prefix("view-source")
+{
+  :host,
+  :root,
+  window {
+    --in-content-page-background: rgb(34, 34, 34) !important;
+    --in-content-box-background: rgb(42, 42, 42) !important;
+    --in-content-table-background: rgb(48, 48, 48) !important;
+  }
+
+  dialog {
+    background-color: rgb(50, 50, 50) !important;
+  }
+}
+
+@-moz-document url-prefix("about:") {
+  .app {
+    background-color: var(--in-content-page-background) !important;
+  }
+
+  .card {
+    background-color: rgb(55, 55, 55) !important;
+  }
+
+  dialog,
+  .dialogBox {
+    background-color: rgb(50, 50, 50) !important;
+  }
+}
+
+@-moz-document url-prefix("view-source") {
+  #viewsource {
+    background-color: rgb(30, 30, 30) !important;
+  }
+}
+
+@-moz-document url-prefix(about:devtools), url-prefix(chrome:) {
+  :root {
+    --theme-body-background: rgb(30, 30, 30) !important;
+  }
+}
