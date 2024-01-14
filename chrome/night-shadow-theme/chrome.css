@@ -1,0 +1,13 @@
+@namespace html url('http://www.w3.org/1999/xhtml');
+@namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+
+:host,
+:root {
+  --in-content-page-background: rgb(34, 34, 34) !important;
+  --in-content-box-background: rgb(42, 42, 42) !important;
+}
+
+dialog[inbrowserwindow],
+dialog[subdialog] {
+  background-color: rgb(50, 50, 50) !important;
+}
