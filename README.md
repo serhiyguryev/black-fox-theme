@@ -27,7 +27,7 @@ Using the aforementioned technique, the Night Shadow theme's color scheme is app
 
 ## Download and installation instructions
 
-1. Install the core theme files in the Add-ons for Firefox web portal (addons.mozilla.org) by clicking the "Install Theme" button: [https://addons.mozilla.org/en-GB/firefox/addon/night-shadow/](https://addons.mozilla.org/en-GB/firefox/addon/night-shadow/)
+1. Install the core theme files on the "Add-ons for Firefox" web portal (addons.mozilla.org) by clicking the "Install Theme" button: [https://addons.mozilla.org/en-GB/firefox/addon/night-shadow/](https://addons.mozilla.org/en-GB/firefox/addon/night-shadow/)
 
 2. Find your Firefox profile directory:
     - Type `about:support` in the address bar and press "Enter"
