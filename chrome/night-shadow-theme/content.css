@@ -1,44 +1,109 @@
 @namespace html url('http://www.w3.org/1999/xhtml');
 @namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
 
-@-moz-document url-prefix("about:"), url-prefix("chrome://"), url-prefix("view-source")
+@-moz-document url-prefix("about:"), url-prefix("view-source"), url-prefix("chrome://"), plain-text-document()
 {
-  :host,
-  :root,
-  window {
-    --in-content-page-background: rgb(34, 34, 34) !important;
-    --in-content-box-background: rgb(42, 42, 42) !important;
-    --in-content-table-background: rgb(48, 48, 48) !important;
-  }
-
-  dialog {
-    background-color: rgb(50, 50, 50) !important;
+  :root {
+    --night-shadow-in-content-background: rgb(24, 25, 26);
+    --night-shadow-dialog-background: rgb(58, 59, 60);
+    --night-shadow-viewsource-background: rgb(30, 30, 30);
   }
 }
 
-@-moz-document url-prefix("about:") {
-  .app {
-    background-color: var(--in-content-page-background) !important;
+@-moz-document url-prefix("about:"), url-prefix("chrome://")
+{
+  :host,
+  :root:not(html.private),
+  window {
+    --theme-body-background: var(--night-shadow-viewsource-background) !important;
+    --dark-theme-background: var(--night-shadow-in-content-background) !important;
+    --in-content-background-color: var(--night-shadow-in-content-background) !important;
+    --in-content-page-background: var(--night-shadow-in-content-background) !important;
+    --in-content-box-background: rgb(36, 37, 38) !important;
+    --in-content-button-background: color-mix(in srgb, currentColor 10%, transparent) !important;
+    --in-content-button-background-hover: color-mix(in srgb, currentColor 20%, transparent) !important;
+    --in-content-button-background-active: color-mix(in srgb, currentColor 30%, transparent) !important;
+    --in-content-table-background: var(--night-shadow-dialog-background) !important;
+    --newtab-background-color-secondary: var(--night-shadow-dialog-background) !important;
+    --box-background: var(--in-content-box-background) !important;
+    --card-background-color: var(--in-content-box-background) !important;
+    --button-background-color: var(--in-content-button-background) !important;
+    --button-hover-background-color: var(--in-content-button-background-hover) !important;
+    --button-active-background-color: var(--in-content-button-background-active) !important;
+    --sidebar-background-hover: var(--in-content-button-background-hover) !important;
   }
 
-  .card {
-    background-color: rgb(55, 55, 55) !important;
+  :root:has(h1[data-l10n-id='safeb-blocked-phishing-page-title']) {
+    --in-content-page-background: rgb(178, 34, 34) !important;
+    --in-content-page-color: white !important;
+    --in-content-text-color: white !important;
+    --in-content-primary-button-text-color: black !important;
+    --in-content-button-background: transparent !important;
+    --in-content-button-background-hover: rgb(102, 0, 0) !important;
+    --in-content-button-background-active: rgb(66, 13, 9) !important;
+    --in-content-primary-button-background: white !important;
+    --in-content-primary-button-background-hover: rgba(255, 255, 255, 0.8) !important;
+    --in-content-primary-button-background-active: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  body.dark {
+    --popup-background: var(--night-shadow-dialog-background) !important;
+    --popup-button-background: var(--in-content-box-background) !important;
+    --toolbar-button-background-hover: var(--in-content-button-background-hover) !important;
+    --toolbar-button-background-active: var(--in-content-button-background-active) !important;
   }
 
   dialog,
   .dialogBox {
-    background-color: rgb(50, 50, 50) !important;
+    background-color: var(--night-shadow-dialog-background) !important;
+  }
+
+  html|dialog::backdrop,
+  .dialogOverlay[topmost='true'] {
+    background-color: rgba(0, 0, 0, 0.8) !important;
   }
 }
 
-@-moz-document url-prefix("view-source") {
-  #viewsource {
-    background-color: rgb(30, 30, 30) !important;
+@-moz-document url-prefix("about:") {
+  .top-site-outer .tile {
+    background-color: rgb(45, 45, 45) !important;
+  }
+
+  table:not(#process-table),
+  tbody:not(#process-tbody) th,
+  tbody:not(#process-tbody) td {
+    border: none !important;
+  }
+
+  tbody:not(#process-tbody) th,
+  tbody:not(#process-tbody) td {
+    padding: 5px 8px !important;
+  }
+
+  #process-table,
+  #process-thead {
+    background-color: var(--in-content-page-background) !important;
+  }
+
+  .container[role='dialog'] {
+    background: var(--night-shadow-dialog-background) !important;
   }
 }
 
-@-moz-document url-prefix(about:devtools), url-prefix(chrome:) {
-  :root {
-    --theme-body-background: rgb(30, 30, 30) !important;
+@-moz-document plain-text-document(), url-prefix("view-source") {
+  html {
+    background-color: var(--night-shadow-viewsource-background) !important;
+  }
+}
+
+@-moz-document url-prefix("about:sync-log") {
+  body {
+    background-color: var(--in-content-box-background) !important;
+  }
+}
+
+@-moz-document url-prefix("about:checkerboard") {
+  body {
+    background-color: var(--in-content-page-background) !important;
   }
 }
