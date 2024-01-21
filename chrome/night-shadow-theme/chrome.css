@@ -2,12 +2,40 @@
 @namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
 
 :host,
-:root {
-  --in-content-page-background: rgb(34, 34, 34) !important;
-  --in-content-box-background: rgb(42, 42, 42) !important;
+:root:not(html.private) {
+  --night-shadow-in-content-background: rgb(24, 25, 26);
+  --night-shadow-dialog-background: rgb(58, 59, 60);
+  --in-content-background-color: var(--night-shadow-in-content-background) !important;
+  --in-content-page-background: var(--night-shadow-in-content-background) !important;
+  --in-content-box-background: rgb(36, 37, 38) !important;
+  --in-content-button-background: color-mix(in srgb, currentColor 10%, transparent) !important;
+  --in-content-button-background-hover: color-mix(in srgb, currentColor 20%, transparent) !important;
+  --in-content-button-background-active: color-mix(in srgb, currentColor 30%, transparent) !important;
 }
 
 dialog[inbrowserwindow],
-dialog[subdialog] {
-  background-color: rgb(50, 50, 50) !important;
+dialog[subdialog],
+.container.infobar {
+  background-color: var(--night-shadow-dialog-background) !important;
+}
+
+#customization-content-container,
+#customization-footer {
+  background-color: var(--night-shadow-in-content-background) !important;
+}
+
+#customization-footer {
+  border-top: 1px solid var(--night-shadow-dialog-background) !important;
+}
+
+toolbarpaletteitem[place='palette'] {
+  width: 10em !important;
+  max-width: 14em !important;
+  padding: 0 10px !important;
+  border-radius: 4px !important;
+  background-color: var(--in-content-box-background) !important;
+}
+
+toolbarpaletteitem[place='palette']:hover {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
 }
