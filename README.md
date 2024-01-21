@@ -4,25 +4,41 @@ Night Shadow: a theme with a dark color scheme that fully modifies the appearanc
 
 ### Firefox advanced customization with CSS
 
-Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, In addition to the built-in Customize features, Firefox themes and other types of add-ons, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css.
+Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css. With these files, the Night Shadow theme's color scheme is applied to all elements of the Firefox interface, including: internal pages (all about: pages), dialog windows, error pages, infobars, developer tools etc.
 
-Using the aforementioned technique, the Night Shadow theme's color scheme is applied to all elements of the Firefox interface (including, panels, internal windows etc.).
+**Attention**: since the changes are mainly made in userChrome.css and userContent.css files, which are not updated automatically with the theme, you should check the GitHub repository from time to time for updated versions of these files.
 
 ## Screenshots
 
-<img src="screenshots/0143130.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0215506.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 
 <details>
 <summary>More screenshots</summary>
-<img src="screenshots/0143209.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0215547.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 
-<img src="screenshots/0143256.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0215937.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 
-<img src="screenshots/0144901.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0210040.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 
-<img src="screenshots/0144948.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0210119.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 
-<img src="screenshots/0145047.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="screenshots/0210144.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210223.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210335.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210413.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210446.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210508.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0210947.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0211011.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+
+<img src="screenshots/0211027.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
 </details>
 
 ## Download and installation instructions
@@ -33,14 +49,14 @@ Using the aforementioned technique, the Night Shadow theme's color scheme is app
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files from the "Releases" section in the right side of this page, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v0.5 (2024-01-21)](https://github.com/serhiyguryev/night-shadow-theme/releases/download/v0.5/chrome.zip)
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
     - Search for the `toolkit.legacyUserProfileCustomizations.stylesheets` preference and switch its value from `false` to `true`
     - Restart Firefox
 
-### How to revert Firefox back to its default state?
+## How to revert Firefox back to its default state?
 
 If Firefox user interface suddenly looks broken after an update, you can temporarily disable the use of userChrome.css and userContent.css files and revert Firefox back to its default state:
 
