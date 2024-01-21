@@ -6,7 +6,7 @@ Night Shadow: a theme with a dark color scheme that fully modifies the appearanc
 
 Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css. With these files, the Night Shadow theme's color scheme is applied to all elements of the Firefox interface, including: internal pages (all about: pages), dialog windows, error pages, infobars, developer tools etc.
 
-**Attention**: since the changes are mainly made in userChrome.css and userContent.css files, which are not updated automatically with the theme, you should check the GitHub repository from time to time for updated versions of these files.
+**Attention**: since the changes are mainly made in userChrome.css and userContent.css files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files.
 
 ## Screenshots
 
