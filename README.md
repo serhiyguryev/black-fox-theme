@@ -70,4 +70,4 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 
 ## License
 
-Licensed under the [GNU General Public License v3.0](https://github.com/serhiyguryev/black-jade-theme/blob/main/LICENSE)
+Licensed under the [GNU General Public License v3.0](https://github.com/serhiyguryev/night-shadow-theme/blob/main/LICENSE)
