@@ -10,35 +10,37 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
 
 ## Screenshots
 
-<img src="screenshots/0215506.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0215506.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
 <details>
 <summary>More screenshots</summary>
-<img src="screenshots/0215547.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0215547.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0215937.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0215937.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210040.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210040.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210119.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0345332.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210144.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0215547.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210223.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210144.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210335.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210223.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210413.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210335.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210446.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210413.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210508.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210446.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0210947.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210508.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0211011.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0210947.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="screenshots/0211027.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 20px 0 30px 0; max-width: 850px">
+<img src="assets/screenshots/0211011.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+
+<img src="assets/screenshots/0211027.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 </details>
 
 ## Download and installation instructions
@@ -67,6 +69,12 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 3. Remove `chrome` directory from the Firefox profile directory
 
 4. Restart Firefox
+
+## Support my work
+
+If you enjoy my work, please consider supporting what I do. Thank you.
+
+<a href="https://ko-fi.com/serhiyguryev" title="Support me on Ko-fi"><img src="assets/kofi_bg_tag_white.svg" alt="Support me on Ko-fi" width="200px" style="display: inline-block; margin: 5px 0;"></a>
 
 ## License
 
