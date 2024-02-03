@@ -22,8 +22,6 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
 
 <img src="assets/screenshots/0345332.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0215547.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
-
 <img src="assets/screenshots/0210144.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
 <img src="assets/screenshots/0210223.png" alt="Night Shadow: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
