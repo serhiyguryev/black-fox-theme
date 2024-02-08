@@ -49,7 +49,7 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v20240125.01 (2024-01-25)](https://github.com/serhiyguryev/night-shadow-theme/releases/download/v20240125.01/chrome.zip)
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.01 (2024-01-25)](https://github.com/serhiyguryev/night-shadow-theme/releases/download/v24.01/chrome.zip)
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
@@ -71,6 +71,9 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 ## Support my work
 
 If you enjoy my work, please consider supporting what I do. Thank you.
+
+* [Donate with PayPal or Debit/Credit Card](https://www.paypal.com/donate/?hosted_button_id=AQ9BB34WHFADC)
+* [Support me on Ko-fi](https://ko-fi.com/serhiyguryev)
 
 <a href="https://ko-fi.com/serhiyguryev" title="Support me on Ko-fi"><img src="assets/kofi_bg_tag_white.svg" alt="Support me on Ko-fi" width="200px" style="display: inline-block; margin: 5px 0;"></a>
 
