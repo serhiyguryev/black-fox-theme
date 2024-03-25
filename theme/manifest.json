@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Night Shadow",
+  "name": "Black Fox",
   "description": "A theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features",
   "author": "Serhiy Guryev",
-  "version": "0.5",
+  "version": "0.8",
   "theme": {
     "colors": {
-      "frame": "rgb(12, 9, 10)",
-      "frame_inactive": "rgb(12, 9, 10)",
+      "frame": "rgb(12, 4, 4)",
+      "frame_inactive": "rgb(12, 4, 4)",
       "tab_text": "rgb(255, 255, 255)",
       "tab_background_text": "rgb(190, 190, 190)",
       "tab_selected": "rgb(50, 50, 50)",
