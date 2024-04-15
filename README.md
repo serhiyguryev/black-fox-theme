@@ -47,7 +47,7 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.01 (2024-01-25)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.01/chrome.zip)
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.01 (2024-01-25)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.01/chrome.zip), SHA1: 33b5ed77f8ae2a6cd8a8b74b7af9b9ed21649cad
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
