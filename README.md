@@ -11,32 +11,32 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
 
 ## Screenshots
 
-<img src="assets/screenshots/0854628.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854628.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
 <details>
 <summary>More screenshots</summary>
 
-<img src="assets/screenshots/0854647.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854647.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854710.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854710.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854727.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854727.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854745.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854745.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854805.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854805.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854821.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854821.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854837.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854837.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854854.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854854.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854911.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854911.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854928.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854928.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854946.jpg" alt="Black Fox: a theme with a dark color scheme that fully modifies the appearance of Firefox browser far beyond the built-in customization features" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/0854946.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 </details>
 
 ## Download and installation instructions
@@ -70,7 +70,7 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 
 You can support the further development of this project by choosing a convenient way to donate:
 
-* **Donation page**: [https://donatello.to/serhiyguryev](https://donatello.to/serhiyguryev)
+* **Debit or Credit Card (donation page)**: [https://donatello.to/serhiyguryev](https://donatello.to/serhiyguryev)
 * **Bitcoin (BTC)**: bc1q6qtnwc2pdktvl48mr9hf0qmhaxfm7xseftp78a
 * **Ether (ETH)**: 0x185e4FB1f662223B011dedbBd42A444891b094f5
 
