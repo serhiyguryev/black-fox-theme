@@ -7,7 +7,7 @@ Black Fox: a theme with a dark color scheme that fully modifies the appearance o
 Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css. With these files, the Black Fox theme's color scheme is applied to all elements of the Firefox interface, including: internal pages (all about: pages), dialog windows, error pages, infobars, developer tools etc.
 
 > [!IMPORTANT]
-> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files.
+> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files (last update date: 2024-04-20)
 
 ## Screenshots
 
@@ -68,7 +68,7 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 
 ## Firefox extensions (Add-ons)
 
-This theme also changes the look of the internal settings pages of Firefox extensions such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/). If this is not acceptable to you, you can comment out the following @import CSS at-rules contained in **userContent.css**:
+This theme also modifies the appearance of the [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/) extension settings pages. If you want to use these extensions without any modifications, you can comment out the following @import CSS at-rules contained in **userContent.css**:
 
 ```css
 /* @import url('night-shadow-theme/extensions/ublock-origin.css'); */
