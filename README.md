@@ -9,6 +9,15 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
 > [!IMPORTANT]
 > Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files.
 
+### Firefox extensions (Add-ons)
+
+This theme further modifies the internal settings pages of Firefox Extensions such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/). If this is not acceptable to you, you can comment out the following @import CSS at-rules contained in **userContent.css**:
+
+```css
+/* @import url('night-shadow-theme/extensions/ublock-origin.css'); */
+/* @import url('night-shadow-theme/extensions/singlefile.css'); */
+```
+
 ## Screenshots
 
 <img src="assets/screenshots/0854628.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
@@ -47,7 +56,7 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.01 (2024-01-25)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.01/chrome.zip), SHA1: 33b5ed77f8ae2a6cd8a8b74b7af9b9ed21649cad
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.04 (2024-04-20)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.04/chrome.zip), SHA1: 0eca056cffd36d192418bc69a77a21661cf94511
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
