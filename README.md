@@ -9,15 +9,6 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
 > [!IMPORTANT]
 > Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files.
 
-### Firefox extensions (Add-ons)
-
-This theme further modifies the internal settings pages of Firefox Extensions such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/). If this is not acceptable to you, you can comment out the following @import CSS at-rules contained in **userContent.css**:
-
-```css
-/* @import url('night-shadow-theme/extensions/ublock-origin.css'); */
-/* @import url('night-shadow-theme/extensions/singlefile.css'); */
-```
-
 ## Screenshots
 
 <img src="assets/screenshots/0854628.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
@@ -74,6 +65,15 @@ If Firefox user interface suddenly looks broken after an update, you can tempora
 3. Remove `chrome` directory from the Firefox profile directory
 
 4. Restart Firefox
+
+## Firefox extensions (Add-ons)
+
+This theme also changes the look of the internal settings pages of Firefox extensions such as [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) and [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/). If this is not acceptable to you, you can comment out the following @import CSS at-rules contained in **userContent.css**:
+
+```css
+/* @import url('night-shadow-theme/extensions/ublock-origin.css'); */
+/* @import url('night-shadow-theme/extensions/singlefile.css'); */
+```
 
 ## Support my work
 
