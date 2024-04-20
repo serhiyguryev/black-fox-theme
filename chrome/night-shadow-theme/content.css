@@ -32,6 +32,8 @@
     --button-hover-background-color: var(--in-content-button-background-hover) !important;
     --button-active-background-color: var(--in-content-button-background-active) !important;
     --sidebar-background-hover: var(--in-content-button-background-hover) !important;
+    --fxview-background-color-secondary: var(--night-shadow-content-box) !important;
+    --fxview-text-primary-color: rgb(251, 251, 254) !important;
   }
 
   :root:has(h1[data-l10n-id='safeb-blocked-phishing-page-title']) {
@@ -62,6 +64,10 @@
   html|dialog::backdrop,
   .dialogOverlay[topmost='true'] {
     background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .search-container input {
+    background-color: var(--night-shadow-content-box) !important;
   }
 }
 
