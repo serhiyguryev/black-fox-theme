@@ -3,10 +3,10 @@
 
 :host,
 :root:not(html.private) {
-  --night-shadow-content: rgb(24, 25, 26);
-  --night-shadow-dialog: rgb(58, 59, 60);
-  --in-content-background-color: var(--night-shadow-content) !important;
-  --in-content-page-background: var(--night-shadow-content) !important;
+  --black-fox-content: rgb(24, 25, 26);
+  --black-fox-dialog: rgb(58, 59, 60);
+  --in-content-background-color: var(--black-fox-content) !important;
+  --in-content-page-background: var(--black-fox-content) !important;
   --in-content-box-background: rgb(36, 37, 38) !important;
   --in-content-button-background: color-mix(in srgb, currentColor 10%, transparent) !important;
   --in-content-button-background-hover: color-mix(in srgb, currentColor 20%, transparent) !important;
@@ -16,16 +16,16 @@
 dialog[inbrowserwindow],
 dialog[subdialog],
 .container.infobar {
-  background-color: var(--night-shadow-dialog) !important;
+  background-color: var(--black-fox-dialog) !important;
 }
 
 #customization-content-container,
 #customization-footer {
-  background-color: var(--night-shadow-content) !important;
+  background-color: var(--black-fox-content) !important;
 }
 
 #customization-footer {
-  border-top: 1px solid var(--night-shadow-dialog) !important;
+  border-top: 1px solid var(--black-fox-dialog) !important;
 }
 
 toolbarpaletteitem[place='palette'] {
