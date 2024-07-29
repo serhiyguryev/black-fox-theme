@@ -1,0 +1,56 @@
+@namespace html url('http://www.w3.org/1999/xhtml');
+@namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+
+/* EXTENSION: uBlock Origin
+   ============================= */
+
+@-moz-document url-prefix("moz-extension://")
+{
+  :root:has(
+      :is(
+          #cloudWidget,
+          #aboutNameVer,
+          #rootContainer,
+          [data-i18n-title='extName'],
+          [data-i18n='settingsCollapseBlockedPrompt'],
+          [data-i18n='supportS1H']
+        )
+    ) {
+    --surface-0: var(--black-fox-viewsource) !important;
+    --surface-1: var(--black-fox-content) !important;
+    --surface-2: var(--black-fox-content-box) !important;
+    --button-surface: color-mix(in srgb, currentColor 10%, transparent) !important;
+    --accent-surface-1: rgb(0, 221, 255) !important;
+    --dashboard-tab-active-ink: var(--accent-surface-1) !important;
+    --link-ink: var(--accent-surface-1) !important;
+    --link-hover-ink: rgb(128, 235, 255) !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) #rootContainer {
+    width: min(100vw, 52em) !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) #rootContainer > * {
+    margin: 0 0 30px 0 !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) :is(.code, #parsed) {
+    padding: 4px 8px !important;
+    background-color: var(--black-fox-dialog) !important;
+    border: none !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) #whyex ul {
+    padding: 6px 0 !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) button#proceed {
+    font-weight: bold !important;
+    color: rgb(43, 42, 51) !important;
+  }
+
+  body:has(p[data-i18n='docblockedPrompt1']) .fa-icon > .fa-icon_exclamation-triangle {
+    width: 70px !important;
+    fill: rgb(255, 189, 79) !important;
+  }
+}
