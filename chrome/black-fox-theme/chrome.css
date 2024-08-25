@@ -19,6 +19,10 @@ dialog[subdialog],
   background-color: var(--black-fox-dialog) !important;
 }
 
+.infobar {
+  --info-bar-background-color: var(--black-fox-dialog) !important;
+}
+
 #customization-content-container,
 #customization-footer {
   background-color: var(--black-fox-content) !important;
