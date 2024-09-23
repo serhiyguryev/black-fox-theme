@@ -1,0 +1,17 @@
+@-moz-document url-prefix("about:"), url-prefix("view-source"), url-prefix("chrome://"), url-prefix("moz-extension://"), plain-text-document()
+{
+  :host,
+  :root {
+    --black-fox-content: rgb(24, 25, 26);
+    --black-fox-content-box: rgb(36, 37, 38);
+    --black-fox-border-color: color-mix(in srgb, currentColor 15%, transparent);
+    --black-fox-infobar: rgb(58, 59, 60);
+    --black-fox-warning-box: color-mix(in srgb, currentColor 10%, transparent);
+    --black-fox-button-background: color-mix(in srgb, currentColor 10%, transparent);
+    --black-fox-button-background-active: color-mix(in srgb, currentColor 30%, transparent);
+    --black-fox-button-background-hover: color-mix(in srgb, currentColor 20%, transparent);
+    --black-fox-dialog: rgb(37, 37, 37);
+    --black-fox-subdialog: rgb(50, 50, 50);
+    --black-fox-viewsource: rgb(30, 30, 30);
+  }
+}
