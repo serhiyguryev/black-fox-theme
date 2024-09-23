@@ -7,36 +7,43 @@ Black Fox: a theme with a dark color scheme that fully modifies the appearance o
 Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css. With these files, the Black Fox theme's color scheme is applied to all elements of the Firefox interface, including: internal pages (all about: pages), dialog windows, error pages, infobars, developer tools etc.
 
 > [!IMPORTANT]
-> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files (last update date: 2024-08-25)
+> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files (last update date: 2024-09-23)
 
 ## Screenshots
 
-<img src="assets/screenshots/0854628.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674257.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
 <details>
 <summary>More screenshots</summary>
 
-<img src="assets/screenshots/0854647.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674326.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854710.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674426.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854727.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674455.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854745.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674530.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854805.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674606.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854821.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674626.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854837.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674654.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854854.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674735.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854911.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674755.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854928.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674819.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
 
-<img src="assets/screenshots/0854946.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+<img src="assets/screenshots/2674843.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+
+<img src="assets/screenshots/2674905.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+
+<img src="assets/screenshots/2674928.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+
+<img src="assets/screenshots/2674948.jpg" alt="Black Fox: theme for Firefox browser with a dark color scheme (screenshot)" style="display: inline-block; margin: 15px 0 15px 0; max-width: 850px">
+
 </details>
 
 ## Download and installation instructions
@@ -47,7 +54,7 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.08 (2024-08-25)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.08/chrome.zip), SHA1: fc6a5a8e05a7d6dd7ce993b247b88026a87c9615
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.09.1 (2024-09-23)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.09.1/chrome.zip), SHA1: 27c7052dc61074936800139691b95a78fd60b6fd
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
