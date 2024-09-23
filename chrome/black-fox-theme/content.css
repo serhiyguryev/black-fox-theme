@@ -1,59 +1,52 @@
 @namespace html url('http://www.w3.org/1999/xhtml');
 @namespace xul url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
 
-@-moz-document url-prefix("about:"), url-prefix("view-source"), url-prefix("chrome://"), url-prefix("moz-extension://"), plain-text-document()
-{
-  :root {
-    --black-fox-content: rgb(24, 25, 26);
-    --black-fox-content-box: rgb(36, 37, 38);
-    --black-fox-dialog: rgb(58, 59, 60);
-    --black-fox-viewsource: rgb(30, 30, 30);
-  }
-}
-
 @-moz-document url-prefix("about:"), url-prefix("chrome://")
 {
   :host,
   :root:not(html.private),
   window {
-    --theme-body-background: var(--black-fox-viewsource) !important;
-    --dark-theme-background: var(--black-fox-content) !important;
-    --in-content-background-color: var(--black-fox-content) !important;
-    --in-content-page-background: var(--black-fox-content) !important;
-    --in-content-box-background: var(--black-fox-content-box) !important;
-    --in-content-button-background: color-mix(in srgb, currentColor 10%, transparent) !important;
-    --in-content-button-background-hover: color-mix(in srgb, currentColor 20%, transparent) !important;
-    --in-content-button-background-active: color-mix(in srgb, currentColor 30%, transparent) !important;
-    --in-content-table-background: var(--black-fox-dialog) !important;
-    --newtab-background-color-secondary: var(--black-fox-dialog) !important;
+    --background-color-box: var(--black-fox-content-box) !important;
     --box-background: var(--black-fox-content-box) !important;
-    --card-background-color: var(--black-fox-content-box) !important;
+    --button-active-background-color: var(--in-content-button-background-active) !important;
     --button-background-color: var(--in-content-button-background) !important;
     --button-hover-background-color: var(--in-content-button-background-hover) !important;
-    --button-active-background-color: var(--in-content-button-background-active) !important;
-    --sidebar-background-hover: var(--in-content-button-background-hover) !important;
+    --card-background-color: var(--black-fox-content-box) !important;
+    --card-border-color: var(--black-fox-border-color) !important;
+    --dark-theme-background: var(--black-fox-content) !important;
     --fxview-background-color-secondary: var(--black-fox-content-box) !important;
     --fxview-text-primary-color: rgb(251, 251, 254) !important;
+    --in-content-background-color: var(--black-fox-content) !important;
+    --in-content-box-background: var(--black-fox-content-box) !important;
+    --in-content-box-border-color: var(--black-fox-border-color) !important;
+    --in-content-button-background-active: var(--black-fox-button-background-active) !important;
+    --in-content-button-background-hover: var(--black-fox-button-background-hover) !important;
+    --in-content-button-background: var(--black-fox-button-background) !important;
+    --in-content-page-background: var(--black-fox-content) !important;
+    --in-content-table-background: var(--black-fox-infobar) !important;
+    --newtab-background-color-secondary: var(--black-fox-infobar) !important;
+    --sidebar-background-hover: var(--in-content-button-background-hover) !important;
+    --theme-body-background: var(--black-fox-viewsource) !important;
   }
 
   :root:has(h1[data-l10n-id='safeb-blocked-phishing-page-title']) {
+    --in-content-button-background-active: rgb(66, 13, 9) !important;
+    --in-content-button-background-hover: rgb(102, 0, 0) !important;
+    --in-content-button-background: transparent !important;
     --in-content-page-background: rgb(178, 34, 34) !important;
     --in-content-page-color: white !important;
-    --in-content-text-color: white !important;
-    --in-content-primary-button-text-color: black !important;
-    --in-content-button-background: transparent !important;
-    --in-content-button-background-hover: rgb(102, 0, 0) !important;
-    --in-content-button-background-active: rgb(66, 13, 9) !important;
-    --in-content-primary-button-background: white !important;
-    --in-content-primary-button-background-hover: rgba(255, 255, 255, 0.8) !important;
     --in-content-primary-button-background-active: rgba(255, 255, 255, 0.7) !important;
+    --in-content-primary-button-background-hover: rgba(255, 255, 255, 0.8) !important;
+    --in-content-primary-button-background: white !important;
+    --in-content-primary-button-text-color: black !important;
+    --in-content-text-color: white !important;
   }
 
   body.dark {
-    --popup-background: var(--black-fox-dialog) !important;
+    --popup-background: var(--black-fox-infobar) !important;
     --popup-button-background: var(--black-fox-content-box) !important;
-    --toolbar-button-background-hover: var(--in-content-button-background-hover) !important;
     --toolbar-button-background-active: var(--in-content-button-background-active) !important;
+    --toolbar-button-background-hover: var(--in-content-button-background-hover) !important;
   }
 
   dialog,
@@ -64,6 +57,10 @@
   html|dialog::backdrop,
   .dialogOverlay[topmost='true'] {
     background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+
+  #sanitizeEverythingWarningBox {
+    background-color: var(--black-fox-warning-box) !important;
   }
 
   .search-container input {
