@@ -7,7 +7,7 @@ Black Fox: a theme with a dark color scheme that fully modifies the appearance o
 Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Thus, there are additional options for changing the appearance (user interface) of Firefox browser by applying style rules with an optional files named [userChrome.css](https://www.userchrome.org/) and userContent.css. With these files, the Black Fox theme's color scheme is applied to all elements of the Firefox interface, including: internal pages (all about: pages), dialog windows, error pages, infobars, developer tools etc.
 
 > [!IMPORTANT]
-> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files (last update date: 2024-09-23)
+> Since the changes are mainly made in **userChrome.css** and **userContent.css** files, which are not updated automatically with the theme, you should check the theme's GitHub repository from time to time for updated versions of these files (last update date: 2025-08-18)
 
 ## Screenshots
 
@@ -54,7 +54,7 @@ Firefox’s user interface is built of web-like elements (HTML and XUL elements)
     - Type `about:support` in the address bar and press "Enter"
     - Go to "Profile Directory (Linux)" / "Profile Folder (Windows)" entry and click on "Open Directory (Linux)" / "Open Folder (Windows)" button
 
-3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v24.09.1 (2024-09-23)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v24.09.1/chrome.zip), SHA1: 27c7052dc61074936800139691b95a78fd60b6fd
+3. Download additional theme files, unzip the downloaded archive and copy the "chrome" directory to the previously opened Firefox profile directory: [chrome.zip, v25.08.1 (2025-08-18)](https://github.com/serhiyguryev/black-fox-theme/releases/download/v25.08.1/chrome.zip), SHA1: 1e1eb00e651ce85998c650f62110aaa6464e0f64
 
 4. Enable Loading of userChrome.css and userContent.css in Firefox:
     - Type `about:config` in the address bar and press "Enter", click "Accept the Risk and Continue" to go to the about:config page
@@ -86,8 +86,8 @@ This theme also modifies the appearance of the [uBlock Origin](https://addons.mo
 
 You can support the further development of this project by choosing a convenient way to donate:
 
-* **Bitcoin (BTC)**: bc1q6qtnwc2pdktvl48mr9hf0qmhaxfm7xseftp78a
-* **Ether (ETH)**: 0x185e4FB1f662223B011dedbBd42A444891b094f5
+* **Bitcoin (BTC)**: `bc1q6qtnwc2pdktvl48mr9hf0qmhaxfm7xseftp78a`
+* **Ether (ETH)**: `0x185e4FB1f662223B011dedbBd42A444891b094f5`
 
 ## License
 
