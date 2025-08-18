@@ -69,8 +69,22 @@
 }
 
 @-moz-document url-prefix("about:") {
-  .top-site-outer .tile {
-    background-color: rgb(45, 45, 45) !important;
+  :host,
+  :root,
+  window {
+    --table-row-background-color-alternate: var(--black-fox-content) !important;
+  }
+
+  #input {
+    --input-text-background-color: var(--black-fox-content-box) !important;
+  }
+
+  #prefs > tr {
+    background-color: var(--black-fox-content) !important;
+  }
+
+  #prefs > tr.odd {
+    background-color: var(--black-fox-content-box) !important;
   }
 
   table:not(#process-table),
@@ -91,6 +105,10 @@
 
   .container[role='dialog'] {
     background: var(--black-fox-dialog) !important;
+  }
+
+  .top-site-outer .tile {
+    background-color: rgb(45, 45, 45) !important;
   }
 }
 
