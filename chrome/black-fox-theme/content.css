@@ -6,6 +6,9 @@
   :host,
   :root:not(html.private),
   window {
+    /* FF 143 */
+    --background-color-canvas: var(--black-fox-content) !important;
+    /* ******** */
     --background-color-box: var(--black-fox-content-box) !important;
     --box-background: var(--black-fox-content-box) !important;
     --button-active-background-color: var(--in-content-button-background-active) !important;
