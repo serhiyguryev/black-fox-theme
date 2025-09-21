@@ -10,6 +10,10 @@
   --in-content-page-background: var(--black-fox-content) !important;
 }
 
+/* FF v.143 */
+window[inbrowserwindow],
+window[subdialog],
+/* ******** */
 dialog[inbrowserwindow],
 dialog[subdialog],
 .container.infobar {
